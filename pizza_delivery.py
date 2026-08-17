@@ -12,9 +12,9 @@ Extra_cheese = input("Do you want extra cheese? Y or N: ")
 if size == "S":
     bill = 15
 elif size == "M":
-    bill += 20
+    bill = 20
 elif size == "L":
-    bill += 25
+    bill = 25
 else:
     print("You have entered the wrong input")
 
